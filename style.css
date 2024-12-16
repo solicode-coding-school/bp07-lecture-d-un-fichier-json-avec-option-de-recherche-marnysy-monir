@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+.container input[type="text"] {
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.container .search button,
+.container form button {
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+}
+.container form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#err-msg-two,
+#err-msg-one {
+  margin-left: 10px;
+  color: red;
+}
+/* table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  width: 150px;
+}
+th {
+  background-color: #f4f4f4;
+}
+table tbody button {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+table input {
+  width: 20px;
+  height: 20px;
+}
+table i {
+  font-size: 18px;
+  color: #000;
+}
+
+table i.fa-solid {
+  color: green;
+}
+table i.fa-trash-can {
+  color: red;
+}
+.container #search_error,
+.container #form_error {
+  display: none;
+  margin: 0 auto;
+  color: red;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.filter select {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+}
+.book-number-p {
+  font-size: 17px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.book-number-p span {
+  color: red;
+  font-size: 20px;
+}
+
+.confirmation {
+  display: none;
+
+  width: 300px;
+  height: 80px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.confirmation p {
+  text-transform: capitalize;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.confirmation button {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+.confirmation .yes-button {
+  margin-right: 20px;
+}
