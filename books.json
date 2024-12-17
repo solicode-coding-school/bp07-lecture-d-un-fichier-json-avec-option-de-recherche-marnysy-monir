@@ -1,0 +1,79 @@
+{
+  "books": [
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "readingStatus": false
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "readingStatus": true
+    },
+    {
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "readingStatus": false
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "readingStatus": true
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "readingStatus": false
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "readingStatus": true
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "readingStatus": false
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "readingStatus": true
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "readingStatus": false
+    },
+    {
+      "title": "The Odyssey",
+      "author": "Homer",
+      "readingStatus": true
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "readingStatus": false
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "readingStatus": true
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "readingStatus": false
+    },
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "readingStatus": true
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "readingStatus": false
+    }
+  ]
+}

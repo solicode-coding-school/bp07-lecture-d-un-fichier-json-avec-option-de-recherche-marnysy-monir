@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>library</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1>add Book to Library</h1>
+    <div class="container">
+      <form id="book-form">
+        <input
+          type="text"
+          id="book-title"
+          placeholder="Enter Book Title"
+          required
+        />
+        <input
+          type="text"
+          id="book-author"
+          placeholder="Enter book Author"
+          required
+        />
+        <input type="checkbox" id="book-reading" /> <span>Reading</span>
+        <button type="button" id="add-btn">Add Book</button>
+      </form>
+      <span id="form_error"> </span>
+      <div class="search">
+        <div>
+          <input
+            type="text"
+            class="search-container"
+            placeholder="Enter book title"
+          />
+          <input type="checkbox" name="" id="search-box" />
+          <span>extact match</span>
+        </div>
+        <div class="filter">
+          <select name="filter" id="book-filter">
+            <option value="all">All books</option>
+            <option value="Read">Read</option>
+            <option value="notread">Not Read</option>
+          </select>
+        </div>
+        <button id="reset-btn">reset</button>
+      </div>
+      <span id="search_error"> </span>
+      <table id="booksTable">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p class="book-number-p">
+        number if books : <span id="book-number">5</span>
+      </p>
+      <div class="confirmation">
+        <p>Are you sure you want to delete the book "<span class="book-name">bookname</span>"?</p>
+        <button class="yes-button">Yes</button>
+        <button class="no-button">No</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
